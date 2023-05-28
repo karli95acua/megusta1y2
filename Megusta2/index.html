@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+    <div class="barranavegacion">
+        <div class="nav-container">
+            <h1>Network</h1>
+            <input type="text" placeholder="Buscar" name="query" class="search">
+            <button class="btn" onclick="cambiarEstado()">Iniciar sesión</button>
+        </div>
+    </div>    
+    </header> 
+    
+    <h2>Tu Feed</h2>
+    <main>
+        <div class="columna1">
+            <div class="contenedor-principal1">
+                <img src="./assets/foto-portafolio.jpg" alt="usuario-circulo" class="avatar"> 
+                <a  href="#"  class="link">Añade un avatar</a> 
+                <div class="usuario"> Karli Acuña </div>         
+            </div>
+        </div>
+
+        <div class="columna2">
+            <div class="contenedor2">
+                <h3>Nicolás G</h3>
+                <div class="seccionlikes">
+                    <div class="cantidadlikes2">9 likes </div>
+                        <button class="btn2" onclick="contarLikes()"> Like</button>
+                </div>         
+                    <div class="comentario2"> Estoy comenzando a estudiar Javascript
+                        y me encanta! les comparto algunos de mis proyectos en el siguiente <a href="#" class="linklink">link </a>. Por favor
+                        no olvides dejarme tu opinión </div>       
+            </div>
+            <div class="contenedor3">
+                <h4>María F</h4>
+                <div class="seccionlikes">
+                    <div class="cantidadlikes3">12 likes </div>
+                        <button class="btn3" onclick="contLikes()"> Like</button>
+                </div>         
+                    <div class="comentario3"> Qué opinan del código que hemos desarrollado con mi equipo?
+                        debate con nosotros en nuestro <a href="#" class="linklink"> discord </a></div>       
+            </div>
+
+            <div class="contenedor4">
+                <h5>Rodrigo M</h5>
+                <div class="seccionlikes">
+                    <div class="cantidadlikes4">12 likes </div>
+                        <button class="btn4" onclick="countLikes()"> Like</button>
+                </div>         
+                    <div class="comentario4"> Me encanta este <a href="#" class="linklink">album</a> de RHCP, siempre lo escucho para 
+                        animarme a estudiar...</div>           
+            </div>
+        </div>    
+
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>

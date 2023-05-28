@@ -1,0 +1,285 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+}
+
+/*  Paleta de colores: 
+Color principal: #150485
+color secundario1: #C62A88
+color secundario2: #590995
+detalles: #03C4A1
+*/
+
+body {
+    background-color: #f3f3f3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.barranavegacion {
+    background-color: #150485;
+    height: 75px;
+    border-top: 5px solid #C62A88;
+    color: #fff;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.search {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0 100px;
+}
+
+.btn {
+    background-color: #C62A88;
+    color: #fff;
+    width: 260px;
+    height: 45px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.nav-container {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contenedor-principal1 {
+    display: flex;
+    height: 350px;
+    width: 300px;
+    border: 3px solid #150485;
+    margin-top: 30px;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-left: -90px;
+    background-color: #E2E0F0;
+}
+
+.link {
+    text-decoration: underline;
+    color: #150485;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+.avatar {
+    height: 130px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    border: 4px solid  #C62A88;
+    margin: 30px 80px;
+    justify-content: center;
+    
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.seccionlikes {
+    display: flex;
+    flex-direction: row;
+    position: absolute; 
+    left: 400px;
+    white-space: nowrap;
+
+}
+
+/* ESTILOS DE CADA CONTENEDOR */
+
+/* ELEMENTOS CONTENEDOR2  */
+
+.contenedor2 {
+    display: flex;
+    height: 220px;
+    width: 650px;
+    border: 3px solid #150485;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    background-color: #E2E0F0;
+    position:relative;
+}
+
+h3 {
+    font-size: 25px;
+    white-space: nowrap;
+    margin: 50px 60px 0px 50px;
+}
+
+.btn2 {
+    height: 40px;
+    width: 70px;
+    background-color: #C62A88;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cantidadlikes2, .btn2 {
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.cantidadlikes2 {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+
+.comentario2 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+/* ELEMENTOS CONTENEDOR3 */
+
+.contenedor3 {
+    display: flex;
+    height: 220px;
+    width: 650px;
+    border: 3px solid #150485;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    background-color: #E2E0F0;
+    position:relative;
+}
+
+h4 {
+    font-size: 25px;
+    white-space: nowrap;
+    margin: 50px 60px 0px 50px;
+}
+
+
+.btn3 {
+    height: 40px;
+    width: 70px;
+    background-color: #C62A88;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cantidadlikes3, .btn3 {
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.cantidadlikes3 {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+
+.comentario3 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+
+/* ELEMENTOS CONTENEDOR4 */
+
+.contenedor4 {
+    display: flex;
+    height: 220px;
+    width: 650px;
+    border: 3px solid #150485;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    background-color: #E2E0F0;
+    position:relative;
+}
+
+h5 {
+    font-size: 25px;
+    white-space: nowrap;
+    margin: 50px 60px 0px 50px;
+}
+
+.btn4 {
+    height: 40px;
+    width: 70px;
+    background-color: #C62A88;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cantidadlikes4, .btn4 {
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.cantidadlikes4 {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.comentario4 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+
+/* FIN */
