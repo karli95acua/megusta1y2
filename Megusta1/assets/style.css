@@ -1,0 +1,111 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+
+}
+
+/*  Paleta de colores: 
+Color principal: #293462
+Color de contraste: #D61C4E
+color de contraste 2: #FEB139
+color para detalles: #FFF80A
+*/
+
+
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barranavegacion {
+    background-color: #293462;
+    height: 75px;
+    border-top: 5px solid #D61C4E;
+    color: #fff;
+}
+
+
+.search {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0 100px;
+}
+
+.btn {
+    background-color: #D61C4E;
+    color: #fff;
+    width: 190px;
+    height: 55px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-container {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.avatar {
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #D61C4E;
+    margin-left: 170px;
+    margin-top: -2px;
+}
+
+.contenedor-principal1 {
+    display: flex;
+    flex-direction: row;
+    height: 270px;
+    width: 698px; 
+    border:3px solid  #293462;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    border-radius: 5px;
+}
+
+.cantidadlikes {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    position:absolute;
+    top: 200px;
+    left: 510px;
+    padding-right: 20px;
+
+}
+
+.btn2 {
+    position:absolute;
+    top: 192px;
+    left: 630px;
+    height: 40px;
+    width: 70px;
+    background-color: #D61C4E;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.descripcion {
+    padding-top: 20px;
+}
+
+h1 {
+    padding-top: 10px;
+}
