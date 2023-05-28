@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megusta</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header>
+    <div class="barranavegacion">
+        <div class="nav-container">
+            <h1>Megusta!</h1>
+            <input type="text" placeholder="Buscar" name="query" class="search">
+            <button class="btn" onclick="cambiarEstado()">Iniciar sesión</button>
+        </div>
+    </div>
+</header> 
+<main>
+    <div class="contenedor-principal1">
+        <div class="columna1">
+            <div class="usuario">
+                <img src="./assets/pony.jpg" alt="usuario-circulo" class="avatar">
+            </div>    
+            <h1>Fundación Cachorros de Pony</h1>
+            <div class="descripcion"> Cada me gusta que das a este usuario, es un apoyo para su causa 
+                "Campaña No más perritos sin hogar" </div>
+        </div>
+        <div class="columna2">
+            <div class="cantidadlikes">3 likes </div>
+            <button class="btn2" onclick="contarLikes()"> Like</button>
+        </div>    
+    </div>
+</main>  
+    <script src="./assets/script.js"></script>
+
+</body>
+</html>
